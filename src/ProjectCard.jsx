@@ -9,7 +9,7 @@ const ProjectCard = ({project}) => {
         <p className='text-md text-slate-400 mt-2'>{project.description}</p>
         <div className="tech flex flex-wrap gap-4 lg:gap-2 mt-2 text-md text-slate-400 font-bold"><span>Tech Used :</span>{project.tech}</div>
         <div className="link-holder flex flex-wrap gap-5 mt-2 text-lg text-indigo-400 font-bold">
-          <a href="" className='hover:underline'>Preview</a>
+          <a href={project.live} target='_blank' className='hover:underline'>Preview</a>
           <a href={project.code} target='_blank' className='hover:underline'> See Code</a>
         </div>
       </div>

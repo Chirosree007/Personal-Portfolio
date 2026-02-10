@@ -7,7 +7,7 @@ export const projects = [
     tech : "React, Tailwind CSS",
     image : "/pawhome.png",
     code : "https://github.com/Chirosree007/Pawhome",
-    live: ""
+    live: "https://pawhome-adoption.netlify.app"
    },
 
    {
@@ -15,8 +15,8 @@ export const projects = [
       description: "A responsive personal portfolio highlighting projects, skills, and modern frontend practices",
       tech : "React, Tailwind CSS",
       image :"/portfolio.png",
-      code : "https://github.com/Chirosree007/Todo-List",
-      live: ""
+      code : "https://github.com/Chirosree007/Personal-Portfolio",
+      live: "https://chirosree-portfolio.netlify.app"
    },
 
    {
@@ -25,7 +25,7 @@ export const projects = [
       tech : "HTML, Vanilla CSS, JS",
       image :"/todo.png",
       code : "https://github.com/Chirosree007/Todo-List",
-      live: ""
+      live: "https://todoomy.netlify.app"
    },
 
 
